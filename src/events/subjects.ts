@@ -1,3 +1,3 @@
 export enum Subjects {
-  PasswordResetRequested = 'passwordReset:requested',
+  placeholderSubject = 'placeholder:subject',
 }
