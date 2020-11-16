@@ -1,3 +1,4 @@
 export enum Subjects {
-  placeholderSubject = 'placeholder:subject',
+  NewUserCreated = 'new-user:created',
+  PasswordResetRequested = 'password-reset:requested',
 }
