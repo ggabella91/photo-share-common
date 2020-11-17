@@ -1,6 +1,6 @@
 import { Subjects } from './subjects';
 
-export interface PasswordResetRequested {
+export interface PasswordResetRequestedEvent {
   subject: Subjects.PasswordResetRequested;
   data: {
     name: string;
