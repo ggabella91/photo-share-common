@@ -37,6 +37,8 @@ export abstract class Listener<T extends Event> {
       console.log(`Message received: ${this.subject} / ${this.queueGroupName}`);
 
       const parsedData = this.parseMessage(msg);
+
+      this.onMessage(parsedData, msg);
     });
   }
 
