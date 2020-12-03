@@ -5,6 +5,7 @@ interface UserPayload {
   id: string;
   name: string;
   email: string;
+  photo: string;
 }
 
 declare global {
