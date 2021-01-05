@@ -6,5 +6,6 @@ export interface NewUserCreatedEvent {
     id: string;
     name: string;
     email: string;
+    username: string;
   };
 }
