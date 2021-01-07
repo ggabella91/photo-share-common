@@ -7,6 +7,7 @@ interface UserPayload {
   email: string;
   username: string;
   photo: string;
+  bio: string;
 }
 
 declare global {
