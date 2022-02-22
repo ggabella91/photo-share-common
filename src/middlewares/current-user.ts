@@ -14,6 +14,7 @@ declare global {
   namespace Express {
     interface Request {
       currentUser?: UserPayload;
+      user?: UserPayload;
     }
   }
 }
@@ -34,6 +35,7 @@ export const currentUser = (
     ) as UserPayload;
 
     req.currentUser = payload;
+    req.user = payload;
   } catch (err) {}
 
   next();
