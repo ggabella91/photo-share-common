@@ -16,3 +16,4 @@ export * from './events/subjects';
 export * from './events/new-user-created-event';
 export * from './events/password-reset-requested-event';
 export * from './events/profile-photo-updated-event';
+export * from './events/conversation-photo-updated-event';
